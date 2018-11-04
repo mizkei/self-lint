@@ -1,0 +1,17 @@
+prohibited-matter:
+  - target:
+      - global
+    import:
+      - github.com/mizkei/self-lint/_example/test
+  - target:
+      - github.com/mizkei/self-lint/_example/model
+    ref:
+      github.com/mizkei/self-lint/_example/time:
+        - SetTime
+        - ResetTime
+  - target:
+      - github.com/mizkei/self-lint/_example/data
+    write:
+      - if
+      - switch
+      - panic
