@@ -12,11 +12,11 @@ $ go get -u github.com/mizkei/self-lint
 
 Write what you want to prohibit in your project.
 
-- import
+- import  
   import packages
-- ref
+- ref  
   reference to variables, methods, or const
-- write
+- write  
   write builtin function or statements
 
 config file
